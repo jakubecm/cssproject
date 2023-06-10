@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "TheWitcher";
+    src: url("fonts/TheWitcher.ttf");
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "TheWitcher", sans-serif;
+}
+
+.hero{
+    background-image: url("images/TW3_screen-Novigrad.webp");
+    padding: 100px;
+    padding-bottom: 400px;
+    background-position: center;
+    color: white;
+    text-shadow: 0 0 10px black;
+    position: relative;
+}
+
+#headline{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+}
+
+
+
+img{
+    border-radius: 50%;
+}
+
+#witch{
+    width: 100px;
+    height: 100px;
+}
+
+#vimme{
+    width: 100px;
+    height: 100px;
+}
+
+#priscilla{
+    width: 100px;
+    height: 100px;
+}
