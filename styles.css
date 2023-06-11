@@ -14,8 +14,8 @@ body {
     padding: 100px;
     padding-bottom: 400px;
     background-position: center;
-    color: white;
-    text-shadow: 0 0 10px black;
+    color: #ffffff;
+    text-shadow: 3px 3px 0px black;
     position: relative;
 }
 
@@ -27,23 +27,22 @@ body {
     text-align: center; 
 }
 
-
-
-img{
-    border-radius: 50%;
+.activities {
+    display: flex;
+    flex-direction: column;
+    background-color: #d7effc;
 }
 
-#witch{
-    width: 100px;
-    height: 100px;
+#activities-images {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
 }
 
-#vimme{
-    width: 100px;
-    height: 100px;
+#activities-images > div{
+    width: 300px;
 }
 
-#priscilla{
+#activities-images > div > img {
     width: 100px;
-    height: 100px;
 }
