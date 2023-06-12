@@ -31,11 +31,15 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #d7effc;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #activities-images {
     display: flex;
     margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -45,4 +49,28 @@ body {
 
 #activities-images > div > img {
     width: 100px;
+}
+
+
+.guide{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.guide > div{
+    max-width: 700px;
+    display: flex;
+    padding: 30px;
+    background-color: #C4A484;
+    border-radius: 20px;
+    
+}
+
+#geralt{
+    width: 300px;
+    height: auto;
+    border-radius: 50px;
 }
